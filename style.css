@@ -1,0 +1,31 @@
+.sun {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+  }
+  
+  body {
+    background-image: linear-gradient(rgb(0, 170, 255), rgb(64, 0, 255));
+    height: 100vh;
+    animation: sunset;
+    animation-duration: 10s;
+  }
+  @keyframes sunset {
+    0% {
+      margin-top: 10%;
+    }
+    50% {
+      margin-top: 40%;
+      background-image: linear-gradient(red, yellow);
+    }
+    100% {
+      margin-top: 80%;
+      background-image: linear-gradient(rgb(134, 21, 21) rgb(165, 97, 1) ow);
+    }
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
